@@ -7,7 +7,7 @@ export AIDAN_SCRIPT=$HOME/Aidan/FD/script
 
 #hsetroot
 #picom -b --no-fading-openclose
-xfce4-power-manager &
+#xfce4-power-manager &
 nm-applet &
 
 sleep 4
