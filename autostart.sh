@@ -1,15 +1,14 @@
 #!/bin/bash
-export AIDAN_SCRIPT=$HOME/Aidan/FD/script
-/bin/bash $AIDAN_SCRIPT/dwm_status_loop.sh &
-/bin/bash $AIDAN_SCRIPT/keyboard.sh &
-/bin/bash $AIDAN_SCRIPT/touchpad.sh &
-/bin/bash $AIDAN_SCRIPT/screen.sh &
+export scr=$HOME/a_sr/script
+/bin/bash $scr/dwm_status_loop.sh &
+/bin/bash $scr/keyboard.sh &
+/bin/bash $scr/screen.sh &
 
 #hsetroot
 #picom -b --no-fading-openclose
 xfce4-power-manager &
 nm-applet &
 
-sleep 4
+sleep 2
 qv2ray &
 nutstore &
