@@ -10,5 +10,5 @@ xfce4-power-manager &
 nm-applet &
 
 sleep 2
-qv2ray &
+#qv2ray &
 nutstore &
