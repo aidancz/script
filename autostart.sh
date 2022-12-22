@@ -1,5 +1,5 @@
 #!/bin/bash
-export scr=$HOME/a_sr/script
+export scr=/home/ai/a_gi/script
 /bin/bash $scr/dwm_status_loop.sh &
 /bin/bash $scr/keyboard.sh &
 /bin/bash $scr/screen.sh &
