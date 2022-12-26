@@ -7,7 +7,7 @@ export scr=/home/ai/a_gi/script
 #hsetroot
 #picom -b --no-fading-openclose
 xfce4-power-manager &
-nm-applet &
+nm-applet & #networkmanager
 
 sleep 2
 #qv2ray &
